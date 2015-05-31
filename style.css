@@ -18,7 +18,7 @@ nav li:hover {
     cursor: pointer;
 }
 
-nav li: hover > a {
+nav li:hover > a {
     color: yellow;
 }
 
@@ -33,7 +33,6 @@ nav ul li ul li {
  
 nav ul li:hover > ul > li {
     display: block;
-    background-color: red;
     top: 100%;
 }
 
