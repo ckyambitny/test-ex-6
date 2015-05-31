@@ -1,0 +1,22 @@
+a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: green;
+    font-size:24;
+}
+
+nav ul li {
+    display: inline-block;
+   
+}
+
+
+nav ul li ul li {
+    display:none;
+}
+   
+nav ul li ul:first-child {
+    display: inline-block;
+}
