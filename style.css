@@ -1,5 +1,6 @@
-a:hover, a:visited {
+a, a:hover, a:visited {
     color: white;
+    text-decoration:none;
 }
 
 li {
@@ -19,6 +20,7 @@ nav ul li ul li {
  
 nav ul li:hover > ul > li {
     display:block;
+    margin-left: -40px;
    
 }
 
