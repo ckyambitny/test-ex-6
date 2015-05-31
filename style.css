@@ -1,18 +1,18 @@
-a, a:hover, a:visited {
+nav a, a:hover, a:visited {
     color: white;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-li {
-    font-size:24; 
-    width:110px;
-    height:30px;
+nav li {
+    font-size: 24; 
+    width: 110px;
+    height: 30px;
     background-color: #292929;
 }
-li:hover {
+nav li:hover {
     cursor:pointer;
 }
-li:hover > a{
+nav li: hover > a{
     color: yellow;
 }
 
@@ -26,8 +26,8 @@ nav ul li ul li {
 }
  
 nav ul li:hover > ul > li {
-    display:block;
-    background-color:red;
+    display: block;
+    background-color: red;
     top:100%;
     
 }
@@ -35,7 +35,7 @@ nav ul li:hover > ul > li {
 nav ul li ul {
     position: absolute;
     left: 0;
-    top:0;
+    top: 0;
 }
 
 nav ul li ul li:hover > ul > li {
