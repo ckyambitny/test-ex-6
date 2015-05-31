@@ -8,6 +8,9 @@ li {
     width:110px;
     background-color: #292929;
 }
+li:hover > a{
+    color: yellow;
+}
 nav ul li {
     display: inline-block;
     position: relative:
