@@ -8,11 +8,9 @@ li {
     width:110px;
     height:30px;
     background-color: #292929;
-A
 }
 li:hover {
     cursor:pointer;
-A
 }
 li:hover > a{
     color: yellow;
