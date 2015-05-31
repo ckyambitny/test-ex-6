@@ -1,23 +1,28 @@
+a:hover, a:visited {
+    color: white;
+}
+
 li {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: green;
-    font-size:24;
+    font-size:24; 
+    width:110px;
+    background-color: #292929;
 }
 nav ul li {
     display: inline-block;
+    position: relative:
    
 }
-
 
 nav ul li ul li {
     display:none;
 }
-   
-nav ul li:hover > ul li {
+ 
+nav ul li:hover > ul > li {
     display:block;
+   
 }
 
+nav ul li ul {
+    position: absolute;
+}
 
