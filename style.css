@@ -6,16 +6,21 @@ a, a:hover, a:visited {
 li {
     font-size:24; 
     width:110px;
+    height:30px;
     background-color: #292929;
+A
+}
+li:hover {
+    cursor:pointer;
+A
 }
 li:hover > a{
     color: yellow;
-    cursor:hand;  
 }
+
 nav ul li {
     display: inline-block;
-    position: relative:
-   
+    position: relative;
 }
 
 nav ul li ul li {
@@ -24,13 +29,17 @@ nav ul li ul li {
  
 nav ul li:hover > ul > li {
     display:block;
-    margin-left: -40px;
-   
+    background-color:red;
+    top:100%;
+    
 }
 
 nav ul li ul {
     position: absolute;
+    left: 0;
+    top:0;
 }
+
 nav ul li ul li:hover > ul > li {
-    margin-left: 70px;
+    
 }
